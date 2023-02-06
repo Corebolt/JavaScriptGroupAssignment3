@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurants</title>
+    <link rel="stylesheet" type= "text/css" href="css.css">
+
+  </head>
+  <body>
+  <div class="main">
+    <select id="filter1" name = "filter1" required>
+      <option value ="">-- No Filter --</option>
+      <option value="country">Country</option>
+      <option value="city">City</option>
+      <option value="cuisine">Cuisine</option>
+    </select>
+
+    <select id="filter2" name="filter2" required>
+      <option value ="">-- No Filter --</option>
+    </select>
+
+    <input type="button" class="button1" id = "apply" value="Apply Filter">
+    <input type="button" class="button2" id = "clear" value="Clear Filter">
+
+    <table id = "menuTable" name = "menuTable"></table>
+
+    <input type="button" class="button3" id="previous" value="< Previous">
+
+    <label id="displayNumPage" name ="displayNumPage">Displaying 1 - 5 of 200</label>
+
+    <input type="button" class="button3" id="next" value="Next >">
+
+    <label>Rows To Display: </label>
+    <select id="numRows" name = "numRows" >
+      <option value = "5"> 5 </option>
+      <option value = "10"> 10 </option>
+      <option value = "25"> 25 </option>
+      <option value = "50"> 50 </option>
+    </select>
+    <footer>Phil Young, Michael Feisthauer, Jessalyn Beggs</footer>
+    <script type ="text/javascript" src="script.js" ></script>
+  </div>
+  </body>
+</html>
